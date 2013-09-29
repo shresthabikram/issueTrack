@@ -21,7 +21,7 @@
        <th>Author</th>
        <th>Assignee</th>
         <tr>
-            <td></td>
+
         </tr>
      </table>
   <g:each var="tasks" in="task">
