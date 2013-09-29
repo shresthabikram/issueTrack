@@ -14,6 +14,19 @@
 </head>
 <body>
     <g:select name="user.age" from="${18..65}" value="${age}" noSelection="['':'-Choose your age-']"/>
+     <table>
+       <th>IssueNo</th>
+       <th>Type</th>
+       <th>Description</th>
+       <th>Author</th>
+       <th>Assignee</th>
+        <tr>
+            <td></td>
+        </tr>
+     </table>
+  <g:each var="tasks" in="task">
+      <p>${tasks.description}</p>
+  </g:each>
 
 
 </body>

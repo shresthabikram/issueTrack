@@ -5,8 +5,8 @@ class UserController {
     def index() { }
 
     def login() {
-        def user = User.findByUserNameAndPassWord(param.username, params.password)
-        if(user){
+        def user = User.findByUserNameAndPassWord(params.username, params.password)
+        if(!user){
             session.user = user
             redirect(action: "taskboard", controller: "user")
         }
@@ -17,7 +17,8 @@ class UserController {
     }
 
     def taskboard(){
-
+         def task = Task.findByAssignTo()
+         render model: [task:task]
     }
 
 }

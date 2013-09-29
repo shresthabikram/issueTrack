@@ -14,10 +14,22 @@
 </head>
 <body>
 <g:select name="user.age" from="${18..65}" value="${age}" noSelection="['':'-Choose your age-']"/>
+
 <g:form action="login" controller="user">
-       <label>Username</label>  <g:textField name="username" value=""/>
-       <label>Password</label>  <g:passwordField name="password" value=""/>
-         <g:submitButton name="submit" value="Login"/>
-     </g:form>
+    <table>
+        <tr>
+            <td>Username</td>
+            <td><g:textField name="username" value=""/></td>
+        </tr>
+        <tr>
+            <td>Password</td>
+            <td><g:passwordField name="password" value=""/></td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td><g:submitButton name="submit" value="Login"/></td>
+        </tr>
+    </table>
+</g:form>
 </body>
 </html>
