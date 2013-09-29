@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3e6cab49-e0ca-4f8a-b4be-5341f0c16c41" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/controllers/org/example/pomodora/UserController.groovy" afterPath="$PROJECT_DIR$/grails-app/controllers/org/example/pomodora/UserController.groovy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/user/index.gsp" afterPath="$PROJECT_DIR$/grails-app/views/user/index.gsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/issueTrack-grailsPlugins.iml" afterPath="$PROJECT_DIR$/issueTrack-grailsPlugins.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/issueTrack.iml" afterPath="$PROJECT_DIR$/issueTrack.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/stacktrace.log" afterPath="$PROJECT_DIR$/target/stacktrace.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/user/taskboard.gsp" afterPath="$PROJECT_DIR$/grails-app/views/user/taskboard.gsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="issueTrack.iws" />
@@ -19,7 +15,7 @@
     <file path="/UserController.groovy" changelist="3e6cab49-e0ca-4f8a-b4be-5341f0c16c41" time="1380419024036" ignored="false" />
     <file path="/User.groovy" changelist="3e6cab49-e0ca-4f8a-b4be-5341f0c16c41" time="1380371349574" ignored="false" />
     <file path="/Task.groovy" changelist="3e6cab49-e0ca-4f8a-b4be-5341f0c16c41" time="1380370107204" ignored="false" />
-    <file path="/taskboard.gsp" changelist="3e6cab49-e0ca-4f8a-b4be-5341f0c16c41" time="1380419353759" ignored="false" />
+    <file path="/taskboard.gsp" changelist="3e6cab49-e0ca-4f8a-b4be-5341f0c16c41" time="1380423918585" ignored="false" />
     <file path="/Dummy.txt" changelist="3e6cab49-e0ca-4f8a-b4be-5341f0c16c41" time="1380418387905" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -79,10 +75,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.gsp" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.gsp" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/grails-app/views/user/index.gsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="71" selection-start="680" selection-end="680" vertical-scroll-proportion="-0.3469388">
+            <state line="19" column="60" selection-start="610" selection-end="610" vertical-scroll-proportion="0.66188526">
               <folding />
             </state>
           </provider>
@@ -106,19 +102,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="taskboard.gsp" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="taskboard.gsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/views/user/taskboard.gsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="36" selection-start="647" selection-end="647" vertical-scroll-proportion="0.5324165">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Task.groovy" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/domain/org/example/pomodora/Task.groovy">
+      <file leaf-file-name="DataSource.groovy" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/conf/DataSource.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="0" selection-start="180" selection-end="180" vertical-scroll-proportion="0.0">
+            <state line="41" column="29" selection-start="1202" selection-end="1202" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BuildConfig.groovy" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="50" column="93" selection-start="1974" selection-end="1974" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -184,10 +189,12 @@
       <list>
         <option value="$PROJECT_DIR$/grails-app/domain/org/example/pomodora/Task.groovy" />
         <option value="$PROJECT_DIR$/grails-app/domain/org/example/pomodora/User.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/views/user/index.gsp" />
         <option value="$PROJECT_DIR$/web-app/css/main.css" />
         <option value="$PROJECT_DIR$/grails-app/controllers/org/example/pomodora/UserController.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/conf/DataSource.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy" />
         <option value="$PROJECT_DIR$/grails-app/views/user/taskboard.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/views/user/index.gsp" />
       </list>
     </option>
   </component>
@@ -339,7 +346,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -351,9 +358,10 @@
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32534248" sideWeight="0.49772727" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Grails View" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18712121" sideWeight="0.95719177" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32876712" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Grails View" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18712121" sideWeight="0.6712329" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32876712" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
@@ -362,7 +370,6 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.6712329" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39726028" sideWeight="0.4969697" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32876712" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -426,20 +433,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/grails-app/views/user/taskboard.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="3" selection-start="365" selection-end="465" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/org/example/pomodora/Task.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="180" selection-end="180" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/domain/org/example/pomodora/User.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="63" selection-start="204" selection-end="204" vertical-scroll-proportion="0.0">
@@ -512,13 +505,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/user/index.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="71" selection-start="680" selection-end="680" vertical-scroll-proportion="-0.3469388">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files (x86)/Java/jdk1.7.0_03/src.zip!/com/sun/org/apache/xerces/internal/impl/dv/xs/AbstractDateTimeDV.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="920" column="75" selection-start="25428" selection-end="25428" vertical-scroll-proportion="0.49429658">
@@ -533,9 +519,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="93" selection-start="1974" selection-end="1974" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/conf/DataSource.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="29" selection-start="1202" selection-end="1202" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/user/taskboard.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="36" selection-start="647" selection-end="647" vertical-scroll-proportion="0.5324165">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/user/index.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="60" selection-start="610" selection-end="610" vertical-scroll-proportion="0.66188526">
           <folding />
         </state>
       </provider>
@@ -547,7 +554,7 @@
         <entry key="issueTrack">
           <value>
             <GrailsSettings>
-              <option name="buildConfigCrc" value="-720168146" />
+              <option name="buildConfigCrc" value="1442187093" />
               <option name="pluginDependenciesCrc" value="-962284282" />
               <option name="properties">
                 <map>
